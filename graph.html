@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+    <script type="text/javascript" src="js/dracula_graffle.js"></script>
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/dracula_graph.js"></script>
+    <script type="text/javascript" src="example.js"></script>
+
+</head>
+<body>
+<div id="canvas"></div>
+<button id="redraw" onclick="redraw();">redraw</button>
+<br />
+<label>Add new node</label>
+<input id="addElement" type="text" placeholder="Name of new node">
+<button id="add_node" onclick="add();">Add Node</button>
+<br />
+<label>Add new edge</label>
+<input type="text" id="edge1" placeholder="From this node">to<input type="text" id="edge2" placeholder="This node">
+<button id="add_edge" onclick="add_edge();">Add edge</button>
+</body>
+</html>
